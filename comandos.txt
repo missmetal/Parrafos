@@ -8,3 +8,9 @@ git push --set-upstream origin branch-prueba --> sube branch local a remoto
 cuando un colaborador crea un branch local y lo sube a remoto, se debe ejecutar "git fetch"
 
 git add -f data2.dat --> fuerzo a que se trackee un archivo que está ignorado en el gitignore
+
+tener en cuenta que puede usar se git pull --rebase para evitar desprolijidades en los commit 
+
+git reset aplica al repo local 
+
+git revert nombre-del-commit 
