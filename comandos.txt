@@ -6,3 +6,5 @@ git show archivo --> muestra el ultimo commit de un archivo y compara los cambio
 git push --set-upstream origin branch-prueba --> sube branch local a remoto 
 
 cuando un colaborador crea un branch local y lo sube a remoto, se debe ejecutar "git fetch"
+
+git add -f data2.dat --> fuerzo a que se trackee un archivo que está ignorado en el gitignore
